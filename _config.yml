@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "David Ponce de Leon"
-  avatar           : "/assets/images/DavidPoncedeleon.jpg"
+  avatar           : "https://pdleon.github.io/assets/images/DavidPoncedeleon.jpg"
   bio              : "Engineer"
   location         : "Missoula, Montana"
   email            : "uc@pdleon.com"
@@ -117,7 +117,7 @@ author:
       # url: mailto:uc@pdleon.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://blog.pdleon.com"
+      url: "https://pdleon.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/ucpdleon"
