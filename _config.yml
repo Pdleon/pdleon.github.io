@@ -107,7 +107,10 @@ analytics:
 # Site Author
 author:
   name             : "David Ponce de Leon"
+<<<<<<< HEAD
   avatar           : "/assets/images/DavidPoncedeleon.jpg"
+=======
+  avatar           : "https://avatars3.githubusercontent.com/u/26256851?s=400&u=2021e53d863043ea6dd733d22c52e4f6ef5233df&v=4"
   bio              : "Engineer"
   location         : "Missoula, Montana"
   email            : "uc@pdleon.com"
@@ -129,7 +132,7 @@ author:
       url: "https://github.com/pdleon"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "www.linkedin.com/in/david-poncedeleon"
+      url: "https://www.linkedin.com/in/david-poncedeleon/"
 
 # Site Footer
 footer:
