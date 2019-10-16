@@ -5,6 +5,6 @@ tags: [Azure,Certification]
 excerpt: "Certification Path"
 ---
 
-## Image Link
+## Journey to get certified
 
- ![AzureImage](/assets/images/DavidPoncedeLeon.jpg)
+Stay tuned as i impart in my journey to get my Azure Certification.  This blog post will be updated regularly.
