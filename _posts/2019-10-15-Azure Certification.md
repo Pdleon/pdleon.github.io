@@ -2,7 +2,7 @@
 title: "Azure Certification"
 date: 2019-10-15
 tags: [Azure,Certification]
-excerpt: "Certification Path"
+excerpt: "My path to get an Azure Certification"
 ---
 
 ## Journey to get certified
