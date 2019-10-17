@@ -7,4 +7,4 @@ excerpt: "My path to get an Azure Certification"
 
 ## Journey to get certified
 
-Stay tuned as i impart in my journey to get my Azure Certification.  This blog post will be updated regularly.
+Stay tuned as I take on my journey to get my Azure Certification.  This blog post will be updated regularly with links tips and useful resources.
