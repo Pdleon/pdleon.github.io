@@ -151,5 +151,6 @@ Stay  tuned for an update and feel free to suggest any other possible  solution 
 
 - [SIP Code Response @ Sonus](https://support.sonus.net/display/UXAPIDOC/SIP+Response+Codes+-+Reference)
 - [Q.850 Code Response @ Sonus](https://support.sonus.net/display/UXAPIDOC/Q.850+Cause+Codes+-+Reference)
-- [About Auto Attendant @ MS](https://technet.microsoft.com/en-us/library/cc526581.aspx) | [Unified Messaging @ MS TechNet](https://technet.microsoft.com/en-us/library/cc526590.aspx)
+- [About Auto Attendant @ MS](https://technet.microsoft.com/en-us/library/cc526581.aspx)
+- [Unified Messaging @ MS TechNet](https://technet.microsoft.com/en-us/library/cc526590.aspx)
 
