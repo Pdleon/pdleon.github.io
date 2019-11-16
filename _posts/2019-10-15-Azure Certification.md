@@ -16,7 +16,6 @@ For me, it's a well worth investment into a career development, to be able to me
 
 Stay tuned as I take on my journey to get my Azure Certification.  This blog post will be updated regularly with links, tips and useful resources.
 
----
 ## Course: Azure Bootcamp
 
 Recently completed a 5 day Azure bootcamp , my thoughts to come soon:
