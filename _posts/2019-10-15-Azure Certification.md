@@ -1,6 +1,5 @@
 ---
 title: "Azure Certification"
-date: 2019-10-15
 tags: [Azure,Certification]
 excerpt: "My path to get an Azure Certification"
 ---

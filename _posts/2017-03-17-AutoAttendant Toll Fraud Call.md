@@ -1,6 +1,5 @@
 ---
 title: "Auto Attendant Toll Fraud Call"
-date: 2017-03-17
 tags: [Sonus, Auto Attendant]
 excerpt: "Configuring and troubleshooting Toll Fraud calls through an Auto Attendant"
 ---
