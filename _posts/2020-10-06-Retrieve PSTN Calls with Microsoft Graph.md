@@ -4,7 +4,7 @@ tags: [MS Graph]
 excerpt: "Connect to Microsoft Graph and use Powershell to retrieve PSTN and Direct Routing Call Records"
 ---
 
-> All credit goes to this blog | script on Github [leeford-Get-TeamsPSTNCallRecords](https://github.com/leeford/Get-TeamsPSTNCallRecords)
+> All credit goes to this blog - script on Github [leeford-Get-TeamsPSTNCallRecords](https://github.com/leeford/Get-TeamsPSTNCallRecords)
 
 Now, lets put this in practice and find out how it works
 
@@ -51,7 +51,7 @@ The *CallRecords.Read.All* permission grants an **application** privileged acces
 
 
 
-Microsoft provides the ability to test and validate your query through graph explorer but since this is an application specific resource/permission, we get a 403 requesting for consent of an application or in this case not supported
+> Microsoft provides the ability to test and validate your query through graph explorer but since this is an application specific resource/permission, we get a 403 requesting for consent of an application or in this case not supported
 
 
 
@@ -61,9 +61,9 @@ Microsoft provides the ability to test and validate your query through graph exp
 
 
 
-Back to the original blog/source:
+- Back to the original blog/source:
 
-- Create permissions for an application in Azure | App Registration | +New Registration -> Name it however you want it
+- Create permissions for an application in Azure -> App Registration -> +New Registration -> Name it however you want it
 - Copy the application ID and Directory ID
 
 
@@ -89,7 +89,7 @@ Back to the original blog/source:
 
 
 
-- Back to the github script link below, click on Raw and copy the script to your preferred editor and modify your applicationid, directory id and client secret string as illustrated on his blog.
+- Back to the github script link below, click on Raw and copy the script to your preferred editor and modify your **applicationid(client), directoryid(tenant), and clientsecret** string as illustrated on his blog.
 
   [Get-TeamsPSTNCallRecords]: https://github.com/leeford/Get-TeamsPSTNCallRecords/blob/master/Get-TeamsPSTNCallRecords.ps1
 
