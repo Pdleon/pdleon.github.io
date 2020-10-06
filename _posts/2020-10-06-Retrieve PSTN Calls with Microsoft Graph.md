@@ -103,7 +103,9 @@ The *CallRecords.Read.All* permission grants an **application** privileged acces
 
 
 
-- Let's run and test the script - currently running on Powershell 7.0.3 and also ran in Powershell 5.1 with success
+- Let's run and test the script -> currently running on Powershell 7.0.3 but also ran in Powershell 5.1 with success
+
+  
 
 ![](../assets/images/GetPSTNRunningScript.png)
 
@@ -111,7 +113,7 @@ The *CallRecords.Read.All* permission grants an **application** privileged acces
 
 
 
-- Everyone has a preference on the format but I find it's easy to read and follow a json file. Here is a sample of the output:
+- Everyone has a preference on the output format but I find it's easy to read and follow a json file. Here is a sample of the output:
 
 ![](../assets/images/OutputJson.png)
 
@@ -119,5 +121,5 @@ The *CallRecords.Read.All* permission grants an **application** privileged acces
 
 - Final thoughts:
   - Thank you to Lee for this script , great work 
-  - Where do we go from here ? Since Microsoft only stores information up to 1 year, perhaps there is a need to move this data to another repository whether is a Sharepoint or Microsoft list, an external/internal database or simply leave it on a json,csv file for archiving purposes. 
-  - What do we do with all this data, we can utilize Power Bi to display a nice graph or trend within your environment but also this could serve to your helpdesk or admin to troubleshoot PSTN calls.
+  - Where do we go from here ? Since Microsoft only stores information up to 1 year, perhaps there is a need to move this data to another repository whether is a Sharepoint or Microsoft lists, an external/internal database or simply leave it on a json,csv file for archiving purposes. 
+  - What do we do with all this data, we can leverage Power Bi to display a nice graph or  call trend within your environment but also this could serve to your helpdesk or admin to troubleshoot PSTN calls or to comply with your company governace.
