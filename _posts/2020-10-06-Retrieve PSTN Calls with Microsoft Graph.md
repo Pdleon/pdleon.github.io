@@ -121,5 +121,5 @@ The *CallRecords.Read.All* permission grants an **application** privileged acces
 
 - Final thoughts:
   - Thank you to Lee for this script , great work 
-  - Where do we go from here ? Since Microsoft only stores information up to 1 year, perhaps there is a need to move this data to another repository whether is a Sharepoint or Microsoft lists, an external/internal database or simply leave it on a json,csv file for archiving purposes. 
-  - What do we do with all this data, we can leverage Power Bi to display a nice graph or  call trend within your environment but also this could serve to your helpdesk or admin to troubleshoot PSTN calls or to comply with your company governace.
+  - Where do we go from here ? Since Microsoft only stores information up to 1 year, perhaps there is a need to move this data to another repository whether is a Sharepoint List or Microsoft lists, an external/internal database or simply leave it on a json,csv file for archiving purposes. 
+  - What do we do with all this data, we can leverage Power Bi to display a nice graph or  call trend within your environment but also this could serve to your helpdesk or admin to troubleshoot PSTN calls or to comply with your company governance.
