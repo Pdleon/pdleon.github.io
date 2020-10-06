@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "contrast" #"default" # "air", "aqua", "contrast", "d
 
 # Site Settings
 locale                   : "en-US"
-title                    : "A Gateway to Workstream Messaging"
+title                    : "Pdleon UCaaS"
 title_separator          : "-"
 name                     : "David Ponce de Leon"
-description              : "Task Completed"
+description              : ""
 url                      : "https://pdleon.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "David Ponce de Leon"
   avatar           : "https://avatars3.githubusercontent.com/u/26256851?s=400&u=2021e53d863043ea6dd733d22c52e4f6ef5233df&v=4"
-  bio              : "A year-round Engineer"
+  bio              : "A year-round UC and Cloud Engineer"
   location         : "Missoula, Montana"
   email            : "uc@pdleon.com"
   links:
