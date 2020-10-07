@@ -4,9 +4,13 @@ tags: [MS Graph]
 excerpt: "Connect to Microsoft Graph and use Powershell to retrieve PSTN and Direct Routing Call Records"
 ---
 
-> All credit goes to this blog - script on Github [leeford-Get-TeamsPSTNCallRecords](https://github.com/leeford/Get-TeamsPSTNCallRecords)
+> This post is an exercise and all credit goes to this blog - script on Github by  [leeford-Get-TeamsPSTNCallRecords](https://github.com/leeford/Get-TeamsPSTNCallRecords)
+
+
 
 There are a couple of ways to retrieve basic information for PSTN calls whether is Microsoft's dial plans or direct routing. The easiest way would be from the Teams' Admin Center -> Analytics & Reports -> Usage Report. 
+
+
 
 ![](../assets/images/TeamsAdminCenterAnalytics-Reports.png)
 
@@ -22,9 +26,11 @@ There are a couple of ways to retrieve basic information for PSTN calls whether 
 
 
 
-We can see some basic PSTN call information like *time, caller, type of call, destination, duration,* etc but the interface is small and having to navigate up and down and left - right can be a less than desired.
 
-Other options include : Export to Excel which can be useful for some with some additional filters and search capabilities.
+
+- We can see some basic PSTN call information like ***time, caller, type of call, destination, duration**,* etc but the interface is small and having to navigate up and down and left - right can be  less desirable
+
+- Other options to obtain this data include : Export to Excel which can be useful for some with some additional filters and search capabilities.
 
 ![](../assets/images/Export-Filter.png)
 
@@ -85,7 +91,7 @@ The *CallRecords.Read.All* permission grants an **application** privileged acces
 
 
 
-- Back to the original blog/source:
+- Back to the original blog/source: We have to register a new application
 
 - Create permissions for an application in Azure -> App Registration -> +New Registration -> Name it however you want it
 - Copy the application ID and Directory ID
@@ -145,5 +151,5 @@ The *CallRecords.Read.All* permission grants an **application** privileged acces
 
 - Final thoughts:
   - Thank you to Lee for this script , great work 
-  - Where do we go from here ? Since Microsoft only stores information up to 1 year, perhaps there is a need to move this data to another repository whether is a Sharepoint List or Microsoft lists, an external/internal database or simply leave it on a json,csv file for archiving purposes. 
-  - What do we do with all this data, we can leverage Power Bi to display a nice graph or  call trend within your environment but also this could serve to your helpdesk or admin to troubleshoot PSTN calls or to comply with your company governance.
+  - Where do we go from here ? Since Microsoft only stores  this information up to 1 year, perhaps there is a need to move this data to another repository whether is a SharePoint List or  the new kid on the block: Microsoft Lists, an external/internal database or simply leave it on a json or csv file for archiving purposes. 
+  - What do we do with all this data, we can leverage PowerBi to populate areas of interest or call volume per service/account, trends within your environment but also this could serve to your helpdesk or admin to troubleshoot PSTN calls or to comply with your company governance.
