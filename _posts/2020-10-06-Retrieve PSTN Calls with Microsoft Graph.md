@@ -8,17 +8,17 @@ excerpt: "Connect to Microsoft Graph and use Powershell to retrieve PSTN and Dir
 
 There are a couple of ways to retrieve basic information for PSTN calls whether is Microsoft's dial plans or direct routing. The easiest way would be from the Teams' Admin Center -> Analytics & Reports -> Usage Report. 
 
-![](/home/david/pdleonblog/pdleon.github.io/assets/images/TeamsAdminCenterAnalytics-Reports.png)
+![](../assets/images/TeamsAdminCenterAnalytics-Reports.png)
 
 
 
-![](/home/david/pdleonblog/pdleon.github.io/assets/images/UsagePSTNReport.png)
+![](../assets/images/UsagePSTNReport.png)
 
-![](/home/david/pdleonblog/pdleon.github.io/assets/images/UsageMetrics2.png)
+![](../assets/images/UsageMetrics2.png)
 
 
 
-![](/home/david/pdleonblog/pdleon.github.io/assets/images/UsageMetrics3.png)
+![](../assets/images/UsageMetrics3.png)
 
 
 
@@ -26,7 +26,7 @@ We can see some basic PSTN call information like *time, caller, type of call, de
 
 Other options include : Export to Excel which can be useful for some with some additional filters and search capabilities.
 
-![](/home/david/pdleonblog/pdleon.github.io/assets/images/Export-Filter.png)
+![](../assets/images/Export-Filter.png)
 
 Now, if you prefer to have more control, automate or speed up your work flow during troubleshooting or report gathering, well Microsoft Graph API is the preferred way to connect and gather this information. 
 
