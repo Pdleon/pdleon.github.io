@@ -110,7 +110,7 @@ The *CallRecords.Read.All* permission grants an **application** privileged acces
 
 
 
-- Back to Azure Active Directory | Enterprise applications | %Your App Name% | Permissions 
+- Back to Azure Active Directory -> Enterprise applications ->%Your App Name% -> Permissions 
   - Make sure that you have the necessary permissions for either your domain or the user to run this application. In this case I am consenting permissions to all users in my organization for test purposes. You can review  and modify the permissions for your application.
 
     
