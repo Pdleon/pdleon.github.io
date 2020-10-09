@@ -18,6 +18,10 @@ The benefits are quite a few as expressed before :
 
 
 
+![](../assets/images/GoalDashboard.png)
+
+
+
 ## The goal
 
 ![](../assets/images/GoalDiagram.png)
@@ -114,7 +118,10 @@ This part should take care of scheduling or running a script on demand, retrievi
 ## Microsoft Teams Integration
 
 - Very simple process to add this list as a tab in any of the channels that have permission to access the list and you are done. 
-- 
+
+  ![](../assets/images/TeamsListAddTab.png)
+
+  
 
 ![](../assets/images/TeamsTab.png)
 
