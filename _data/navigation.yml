@@ -3,7 +3,7 @@ main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
-   url: https://pdleon.github.io/about/
+   url: "https://pdleon.github.io/about/"
   - title: "Posts"
     url: /year-archive/
     - title: "Tags"
