@@ -1,6 +1,7 @@
 ---
 title: "Microsoft Teams PSTN Record Calls to Microsoft Lists with Power Automate"
-tags: [Power Automate]
+toc: true
+tags: [Teams, Power Automate]
 excerpt: "Automate PSTN call records in Teams Admin Dashboard to Microsoft Lists "
 ---
 

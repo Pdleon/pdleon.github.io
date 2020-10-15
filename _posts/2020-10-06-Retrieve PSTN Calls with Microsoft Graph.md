@@ -1,6 +1,7 @@
 ---
 title: "Microsoft Teams - Retrieve PSTN Call Records with Microsoft Graph"
-tags: [MS Graph]
+toc: true
+tags: [Teams, MS Graph]
 excerpt: "Connect to Microsoft Graph and use Powershell to retrieve PSTN and Direct Routing Call Records"
 ---
 
