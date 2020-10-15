@@ -8,6 +8,7 @@ excerpt: "Connect to Microsoft Graph and use Powershell to retrieve PSTN and Dir
 > This post is an exercise and all credit goes to this blog - script on Github by  [leeford-Get-TeamsPSTNCallRecords](https://github.com/leeford/Get-TeamsPSTNCallRecords)
 
 
+# Getting the Reports
 
 There are a couple of ways to retrieve basic information for PSTN calls whether is Microsoft's dial plans or direct routing. The easiest way would be from the Teams' Admin Center -> Analytics & Reports -> Usage Report. 
 
@@ -41,9 +42,9 @@ Some background to make all this happen:
 
 
 
-### From the Microsoft official Documentation 
+## From the Microsoft official Documentation 
 
-## Call Record Permissions
+### Call Record Permissions
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](https://docs.microsoft.com/en-us/graph/permissions-reference).
 
@@ -53,7 +54,7 @@ One of the following permissions is required to call this API. To learn more, in
 | Delegated (personal Microsoft account) | Not supported.                              |
 | Application                            | CallRecords.Read.All                        |
 
-## Application permissions vs Delegated permissions
+### Application permissions vs Delegated permissions
 
 This is important to understand because when using the graph explorer you may encounter consent permissions warnings|errors to execute the query as the *CallRecords.Read.All* is specific to an application and not user scope.
 
@@ -80,7 +81,7 @@ The *CallRecords.Read.All* permission grants an **application** privileged acces
 - *CallRecords.Read.All*: Subscribe to new call records (`POST /v1.0/subscriptions`).
 - *CallRecords.Read.All*: Retrieve direct routing call records within the specified time range (`GET /v1.0/communications/callRecords/microsoft.graph.callRecords.getDirectRoutingCalls(fromDateTime={start date and time),toDateTime={end date and time))`)
 
-
+## Microsoft Graph Explorer
 
 > Microsoft provides the ability to test and validate your query through graph explorer but since this is an application specific resource/permission, we get a 403 requesting for consent of an application or in this case not supported
 
@@ -90,7 +91,7 @@ The *CallRecords.Read.All* permission grants an **application** privileged acces
 
 
 
-
+## Azure Application Registration
 
 - Back to the original blog/source: We have to register a new application
 
@@ -119,6 +120,7 @@ The *CallRecords.Read.All* permission grants an **application** privileged acces
   ![](../assets/images/Azure-AppPermissions.png)
 
 
+## Creating - Editing the Script
 
 - Back to the github script link below, click on Raw and copy the script to your preferred editor and modify your **applicationid(client), directoryid(tenant), and clientsecret** string as illustrated on his blog.
 
@@ -133,6 +135,7 @@ The *CallRecords.Read.All* permission grants an **application** privileged acces
 ![](../assets/images/GetPSTNAdaptedScript.png)
 
 
+## Testing the Script
 
 - Let's run and test the script -> currently running on Powershell 7.0.3 but also ran in Powershell 5.1 with success
 
@@ -150,7 +153,7 @@ The *CallRecords.Read.All* permission grants an **application** privileged acces
 
 
 
-- Final thoughts:
+## Final thoughts
   - Thank you to Lee for this script , great work 
   - Where do we go from here ? Since Microsoft only stores  this information up to 1 year, perhaps there is a need to move this data to another repository whether is a SharePoint List or  the new kid on the block: Microsoft Lists, an external/internal database or simply leave it on a json or csv file for archiving purposes. 
   - What do we do with all this data, we can leverage PowerBi to populate areas of interest or call volume per service/account, trends within your environment but also this could serve to your helpdesk or admin to troubleshoot PSTN calls or to comply with your company governance.
