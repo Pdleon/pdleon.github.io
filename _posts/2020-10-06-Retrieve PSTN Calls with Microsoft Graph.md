@@ -8,7 +8,7 @@ excerpt: "Connect to Microsoft Graph and use Powershell to retrieve PSTN and Dir
 > This post is an exercise and all credit goes to this blog - script on Github by  [leeford-Get-TeamsPSTNCallRecords](https://github.com/leeford/Get-TeamsPSTNCallRecords)
 
 
-# Getting the Reports
+## Getting the Reports
 
 There are a couple of ways to retrieve basic information for PSTN calls whether is Microsoft's dial plans or direct routing. The easiest way would be from the Teams' Admin Center -> Analytics & Reports -> Usage Report. 
 
