@@ -13,9 +13,9 @@ To mask outbound caller ID by location with the main office number which onwed b
 
 We are not going to cover in detail how to assign a Direct Routing DID to a Resource Account but high level steps:
 
-    - Create new Resource Account through Admin Portal or through Powershell ( AutoAttendant or CallQueue ); Autoattendant in our case
-    - Assign the proper license to the Resource Account
-    - Assign desired number to the Resource Account through powershell only
+- Create new Resource Account through Admin Portal or through Powershell ( AutoAttendant or CallQueue ); Autoattendant in our case
+- Assign the proper license to the Resource Account
+- Assign desired number to the Resource Account through powershell only
 
 
 ```powershell
