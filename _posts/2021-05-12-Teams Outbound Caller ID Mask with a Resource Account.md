@@ -56,7 +56,7 @@ We have a couple of options to do this :
 ```powershell
  New-CsGroupPolicyAssignment -GroupId xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -PolicyType CallingLineIdentity -PolicyName "OfficeCallerID" -rank 1
 ```
-The policy now is assigned to a group and the hierarchy of assignments is direct|group|global
+The policy now is assigned to a group and the hierarchy of assignment is direct->group->global
 
 ![](../assets/images/CallerIDPolicyGroup.png)
 
