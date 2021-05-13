@@ -7,7 +7,7 @@ excerpt: "Teams PSTN Outbound Caller ID Mask Policy"
 
 # Request
 
-To mask outbound caller ID by location with the main office number which onwed by the Telco provideder and used by an AutoAttendant Resource Account.
+To mask outbound caller ID by location with the corresponding office number DID which is onwed by their direct routing solution and assigned to an AutoAttendant Resource Account.
 
 # Procedure
 
@@ -38,7 +38,7 @@ New-CsCallingLineIdentity -Identity "OfficeCallerID" -CallingIDSubstitute Resour
 
 We have a couple of ways to do this :
 
-- Direct assignment to a user through powershell or in the Teams Admin Center | Users ; then editing the policies and assigning the new policy
+- Direct assignment to a user through powershell or in the Teams Admin Center - Users ; then editing the policies and assigning the new policy
 
 ![](../assets/images/CallerIDPolicyDirect.png)
 
