@@ -19,7 +19,7 @@ We are not going to cover in detail how to assign a Direct Routing DID to a Reso
 
 
 ```powershell
-Set-CsOnlineApplicationInstance -Identity ResourceAccountAA@domain.com -OnpremPhoneNumber +1(XXX)XXX-XXXX
+Set-CsOnlineApplicationInstance -Identity ResourceAccountAA@domain.com -OnpremPhoneNumber +1XXXXXXXXXX
 ```
 
 
