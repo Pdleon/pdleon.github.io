@@ -7,7 +7,7 @@ excerpt: "Teams PSTN Outbound Caller ID Mask Policy"
 
 # Request
 
-To mask outbound caller ID by location with the corresponding office number DID which is onwed by their direct routing solution and assigned to an AutoAttendant Resource Account.
+To mask outbound caller ID by location with the corresponding office number DID which is owned by their direct routing solution and assigned to an AutoAttendant Resource Account.
 
 # Procedure
 
@@ -21,6 +21,7 @@ We are not going to cover in detail how to assign a Direct Routing DID to a Reso
 ```powershell
 Set-CsOnlineApplicationInstance -Identity ResourceAccountAA@domain.com -OnpremPhoneNumber +1(XXX)XXX-XXXX
 ```
+
 
 ---
 
@@ -36,13 +37,13 @@ New-CsCallingLineIdentity -Identity "OfficeCallerID" -CallingIDSubstitute Resour
 
 # Assignment
 
-We have a couple of ways to do this :
+We have a couple of options to do this :
 
-- Direct assignment to a user through powershell or in the Teams Admin Center - Users ; then editing the policies and assigning the new policy
+- Option 1: Direct assignment to a user through powershell or in the Teams Admin Center - Users ; then editing the policies and assigning the new policy
 
 ![](../assets/images/CallerIDPolicyDirect.png)
 
-- Since users will have a different outbound number based on location tied to a different AutoAttendant (Repeat all the steps above to create another AA on a different location) we are going to assign policies to a security group that has membership based on location.
+- Option 2: Since the request is for users to have a different outbound number based on location tied to a different AutoAttendant (Repeat all the steps above to create another AA on a different location) we are going to assign policies to a security group that has membership based on location.
 
 - Create a new security group in Azure AD or use an existent one that covers all the members in the desired location
 
