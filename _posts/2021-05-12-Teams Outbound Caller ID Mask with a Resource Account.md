@@ -62,3 +62,6 @@ The policy now is assigned to a group and the hierarchy of assignments is direct
 # Final Thoughts
 
 This solution works great if the onboarding process takes care of adding new hires to the proper security group in AD based on their locatio and no need to worry about Teams policies.
+
+One scenario that we did not touch is to apply this to all company wide and while the previous steps work well there is a possibility to do it at the SBC gateway level by masking every source number for outbound routing or setting the global caller ID policy with a Microsoft service number and translating that number to company wide main number at the SBC.
+Possibly requires less maintenance and configuration but less control if the company is leveraging direct routing as a service with a third party provider.
