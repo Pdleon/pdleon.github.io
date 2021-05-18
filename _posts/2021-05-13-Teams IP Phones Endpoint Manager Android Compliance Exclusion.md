@@ -1,25 +1,25 @@
 ---
 title: "Microsoft Teams IP Phones Endpoint Manager Android Complaince Exclusion"
 toc: true
-tags: [Teams, IP Phones]
+tags: [Teams, IP Phones, Intune]
 excerpt: "Teams IP Phones Endpoint Manager Android Complaince Exclusion "
 ---
 
 # Issue
 
-Recently encountered an issue where IP Phones (Polycom CCX) were unable to register to Azure AD and would not appear in the Microsoft Teams Admin Center list of IP Phone devices. Most of the times this should not be an issue except if the company has Intune enabled and endpoint manager resctricting devices from regestering.
+Recently encountered an issue where IP Phones (Polycom CCX) were unable to register to Azure AD and would not appear in the Microsoft Teams Admin Center list of IP Phone devices. Most times this should not be an issue except if the company has Intune enabled and endpoint manager resctricting devices from registering due to compliance policies.
 
 # Solution
 
-I knew there were some recommendations to exclude these phones from any device compliance because it could create more harm than good and not gaining full set of features for these devices since all software and firmware can be pushed through the teams admin center.
+I knew there were some recommendations to exclude these phones from any device compliance as it could create more harm than good and not gaining a full set of features for these devices since all software and firmware can be pushed through the teams admin center.
 
 Modern practices for Intune recommend to disable or block device administrator for android since it's considered legacy, grants a lot of permissions to the device and lacks of total separation between work an personal profile.
 
 Digging into the logs, I noticed the device was getting blocked by platform restriction.
 
-Conditional access and android compliance policies will apply to any android based device which means an Intune license needs to be applied to the user and Android device administrator needs to be enabled for proper enrollment on Ip Phones.
+Conditional access and android compliance policies will apply to any android based device which means an Intune license needs to be applied to the user and the setting for Android device administrator needs to be enabled for proper enrollment of Ip Phones.
 
-To exclude those phones from any android compliance policy that could affect these phones or user registration, we completed these steps
+To exclude those phones from any android compliance policy that could affect these phones or user registration, we completed these steps:
 
 - Create a security group in AD with dynamic membership rules. In our case we have two Polycom phone models CCX500 and CCX600.
 
