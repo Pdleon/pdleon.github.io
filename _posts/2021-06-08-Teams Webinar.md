@@ -7,7 +7,7 @@ excerpt: "Teams Webinar"
 
 # Introduction
 
-Webinar is a new feature in Teams designed for up to 1,000 attendees with the ability to use a registration form, all the built in meeting features and a hidden feature of a Microsoft list where automation could be leverage for added control. I discovered this feature from Steven Collier Youtube's channel here -> https://youtu.be/0NAxfP6gulw
+Webinar is a new feature in Teams designed for up to 1,000 attendees with the ability to use a registration form, all the built in meeting features and a hidden feature of a Microsoft list where automation could be leverage for added control. I discovered this feature from Steven Collier Youtube's channel here -> <https://youtu.be/0NAxfP6gulw>
 
 > Two quick guides from Microsoft with all the features and usage.
 
