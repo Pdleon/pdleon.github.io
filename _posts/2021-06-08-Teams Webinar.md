@@ -11,8 +11,8 @@ Webinar is a new feature in Teams designed for up to 1,000 attendees with the ab
 
 > Two quick guides from Microsoft with all the features and usage.
 
-- https://www.microsoft.com/en-us/microsoft-365/blog/2021/05/11/introducing-webinars-in-microsoft-teams-easy-professional-webinars-to-engage-customers/
-- https://teamworktools.azurewebsites.net/assets/TeamsWebinarsGetStartedGuide.pdf
+- <https://www.microsoft.com/en-us/microsoft-365/blog/2021/05/11/introducing-webinars-in-microsoft-teams-easy-professional-webinars-to-engage-customers/>
+- <https://teamworktools.azurewebsites.net/assets/TeamsWebinarsGetStartedGuide.pdf>
 
 **Step by Step:**
 
