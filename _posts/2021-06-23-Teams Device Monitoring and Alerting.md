@@ -43,7 +43,7 @@ Use your custom channel or leave the default channel alert. Initial configuratio
 
 Initially I tested with a standard M365 email connector webhook but that didn't work probably due to mismatch of the json payload. Looking at the documentation, it has a custom payload schema and just for testing purposes decided to use a power flow inbound webhook that will send an email alert.
 This is a premium feature but you can enable a 90 day trial for testing purposes and integrate it to another third party solution or adapt it to your needs.
-During this test, I dit not obtain the user and device GUID so it requires additional work as it schema will not correlate the user and device GUID displayname.
+During this test, I dit not obtain the user and device GUID so it requires additional work as the schema will not correlate the user and device GUID displayname.
 
 ![](../assets/images/DeviceOfflineAlertWebhookFlow.png)
 
