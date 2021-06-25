@@ -41,7 +41,7 @@ Use your custom channel or leave the default channel alert. Initial configuratio
 
 ## Webhook Configuration
 
-Initially I tested with a standard M365 email connector webhook but that didn't work probably due to mismatch of the json payload. Looking at the documentation, it has a custom payload schema and just for testing purposes decided to use a power flow inbound webhook that will send an email alert.
+Initially I tested with a standard M365 email connector webhook but that didn't work probably due to mismatch of the json payload. Looking at the documentation, it has a custom payload schema and just for testing purposes decided to use a power automate flow inbound webhook that will send an email alert.
 This is a premium feature but you can enable a 90 day trial for testing purposes and integrate it to another third party solution or adapt it to your needs.
 During this test, I dit not obtain the user and device GUID so it requires additional work as the schema will not correlate the user and device GUID displayname.
 
@@ -51,7 +51,7 @@ During this test, I dit not obtain the user and device GUID so it requires addit
 
 ## Teams Channel Notification View
 
-Basic veiw but works well, from there you can either automate your own logic to this notification or just leave it in the channel. One thing that wasn't accurate for me was the alert time, the documentation says the json schema is in UTC but the alert time did not match neither my time zone nor UTC time. I will continue to test on this.
+Basic view but works well, from there you can either automate your own logic to this notification or just leave it in the channel. One thing that wasn't accurate for me was the alert time, the documentation says the json schema is in UTC but the alert time did not match neither my time zone nor UTC time. I will continue to test on this.
 
 ![](../assets/images/AlertinTeamsChannel.png)
 
